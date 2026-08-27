@@ -120,7 +120,7 @@ test('UI Controls',async({page}) =>
         
     });
 
-    test.only('blinking link test', async ({ browser }) => 
+    test('blinking link test', async ({ browser }) => 
     {
         const context = await browser.newContext();
         const page = await context.newPage();
